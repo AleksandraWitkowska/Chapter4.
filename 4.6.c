@@ -11,8 +11,8 @@ int main()
    scanf ("%s", imie);
    printf ("Podaj swoje nazwisko:\n");
    scanf ("%s", nazwisko);
-   printf ("%s %s\n", imie, nazwisko);
-   printf ("%*d %*d\n", strlen (imie), strlen (imie), strlen (nazwisko), strlen (nazwisko));
+   printf ("%12s %15s\n", imie, nazwisko);
+   printf ("%12d %15d\n", strlen (imie), strlen (nazwisko));
    printf ("%s %s\n", imie, nazwisko);
    printf ("%-*d %-*d\n", strlen (imie), strlen (imie), strlen (nazwisko), strlen (nazwisko));
 
