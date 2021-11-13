@@ -13,8 +13,9 @@ int main()
    scanf ("%s", nazwisko);
    printf ("%12s %15s\n", imie, nazwisko);
    printf ("%12d %15d\n", strlen (imie), strlen (nazwisko));
-   printf ("%s %s\n", imie, nazwisko);
-   printf ("%-*d %-*d\n", strlen (imie), strlen (nazwisko));
+   printf ("%-10s %-15s\n", imie, nazwisko);
+   printf ("%-10d %-15d\n", strlen (imie), strlen (nazwisko));
+
 
 
     return 0;
